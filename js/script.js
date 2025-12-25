@@ -1,10 +1,46 @@
 let songs = [
-  { title:"Bollywood Vibes", artist:"DaMusic", src:"songs/bollywood.mp3", genre:"Bollywood", thumb:"assets/thumbnails/bollywood.png" },
-  { title:"Pop Energy", artist:"DaMusic", src:"songs/pop.mp3", genre:"Pop", thumb:"assets/thumbnails/pop.png" },
-  { title:"Midnight Chill", artist:"DaMusic", src:"songs/chill.mp3", genre:"Chill", thumb:"assets/thumbnails/chill.png" },
-  { title:"Neon Pulse", artist:"DaMusic", src:"songs/edm.mp3", genre:"EDM", thumb:"assets/thumbnails/edm.png" },
-  { title:"Smooth Lounge", artist:"DaMusic", src:"songs/jazz.mp3", genre:"Jazz", thumb:"assets/thumbnails/jazz.png" },
-  { title:"Calm Piano", artist:"DaMusic", src:"songs/classical.mp3", genre:"Classical", thumb:"assets/thumbnails/classical.png" }
+  {
+    title:"Bollywood Vibes",
+    artist:"DaMusic",
+    genre:"Bollywood",
+    src:"https://drive.google.com/uc?id=1dqkQY4K-2whmHC0ueGqYHNKmgncyNNCS",
+    thumb:"assets/thumbnails/bollywood.png"
+  },
+  {
+    title:"Pop Energy",
+    artist:"DaMusic",
+    genre:"Pop",
+    src:"https://drive.google.com/uc?id=1fsJcw-PW9eBSw71Zsp49MbE4D4uHCdeB",
+    thumb:"assets/thumbnails/pop.png"
+  },
+  {
+    title:"Midnight Chill",
+    artist:"DaMusic",
+    genre:"Chill",
+    src:"https://drive.google.com/uc?id=1hCepi3i5JnMOfHKudN_kBHAqbE3D6KQ8",
+    thumb:"assets/thumbnails/chill.png"
+  },
+  {
+    title:"Neon Pulse",
+    artist:"DaMusic",
+    genre:"EDM",
+    src:"https://drive.google.com/uc?id=1Q3VX1ijjlEAjfpBFANm-m3G4D0fxbEd4",
+    thumb:"assets/thumbnails/edm.png"
+  },
+  {
+    title:"Smooth Lounge",
+    artist:"DaMusic",
+    genre:"Jazz",
+    src:"https://drive.google.com/uc?id=1qikhpdnHSjClA7kJ3Wn4-dnoV8t3yKsL",
+    thumb:"assets/thumbnails/jazz.png"
+  },
+  {
+    title:"Calm Piano",
+    artist:"DaMusic",
+    genre:"Classical",
+    src:"https://drive.google.com/uc?id=1SeX_V1u_SgChl8lp5F5WZfo-JYG2HFKk",
+    thumb:"assets/thumbnails/classical.png"
+  }
 ];
 
 let currentPlaylist = songs;
@@ -381,3 +417,4 @@ function liveSearch(){
     box.appendChild(div);
   });
 }
+
