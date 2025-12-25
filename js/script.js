@@ -3,42 +3,42 @@ let songs = [
     title:"Bollywood Vibes",
     artist:"DaMusic",
     genre:"Bollywood",
-    src:"https://drive.google.com/uc?id=1dqkQY4K-2whmHC0ueGqYHNKmgncyNNCS",
+    src:"https://drive.google.com/uc?export=download&id=1dqkQY4K-2whmHC0ueGqYHNKmgncyNNCS",
     thumb:"assets/thumbnails/bollywood.png"
   },
   {
     title:"Pop Energy",
     artist:"DaMusic",
     genre:"Pop",
-    src:"https://drive.google.com/uc?id=1fsJcw-PW9eBSw71Zsp49MbE4D4uHCdeB",
+    src:"https://drive.google.com/uc?export=download&id=1fsJcw-PW9eBSw71Zsp49MbE4D4uHCdeB",
     thumb:"assets/thumbnails/pop.png"
   },
   {
     title:"Midnight Chill",
     artist:"DaMusic",
     genre:"Chill",
-    src:"https://drive.google.com/uc?id=1hCepi3i5JnMOfHKudN_kBHAqbE3D6KQ8",
+    src:"https://drive.google.com/uc?export=download&id=1hCepi3i5JnMOfHKudN_kBHAqbE3D6KQ8",
     thumb:"assets/thumbnails/chill.png"
   },
   {
     title:"Neon Pulse",
     artist:"DaMusic",
     genre:"EDM",
-    src:"https://drive.google.com/uc?id=1Q3VX1ijjlEAjfpBFANm-m3G4D0fxbEd4",
+    src:"https://drive.google.com/uc?export=download&id=1Q3VX1ijjlEAjfpBFANm-m3G4D0fxbEd4",
     thumb:"assets/thumbnails/edm.png"
   },
   {
     title:"Smooth Lounge",
     artist:"DaMusic",
     genre:"Jazz",
-    src:"https://drive.google.com/uc?id=1qikhpdnHSjClA7kJ3Wn4-dnoV8t3yKsL",
+    src:"https://drive.google.com/uc?export=download&id=1qikhpdnHSjClA7kJ3Wn4-dnoV8t3yKsL",
     thumb:"assets/thumbnails/jazz.png"
   },
   {
     title:"Calm Piano",
     artist:"DaMusic",
     genre:"Classical",
-    src:"https://drive.google.com/uc?id=1SeX_V1u_SgChl8lp5F5WZfo-JYG2HFKk",
+    src:"https://drive.google.com/uc?export=download&id=1SeX_V1u_SgChl8lp5F5WZfo-JYG2HFKk",
     thumb:"assets/thumbnails/classical.png"
   }
 ];
@@ -417,4 +417,5 @@ function liveSearch(){
     box.appendChild(div);
   });
 }
+
 
